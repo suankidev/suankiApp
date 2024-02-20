@@ -10,6 +10,7 @@ hs_err_pid*
 
 dist/*
 target/
+*/target/
 lib_managed/
 src_managed/
 project/boot/
