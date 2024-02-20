@@ -1,11 +1,11 @@
-package com.suanki.tutorials.devInsideYou.anonymousPartialFunction
+package com.suanki.dev.devInsideYou.anonymousPartialFunction
 
 object FunctionLiterals {
 
   def code(args: Array[String]): Unit = {
 
     val totalFunction: Int => String =
-      argument => s"\"${argument}\""
+      argument => s"""\"${argument}\""""
 
     val randomNumber = scala.util.Random.nextInt()
 
@@ -63,11 +63,11 @@ object FunctionLiterals {
     }
 
     val totalFunctionsWithoutSyntaticSugar: SimpleFunctionTwo[Int, String] = new SimpleFunctionTwo[Int, String] {
-      override def apply(num: Int): String = s"\"${num}\""
+      override def apply(num: Int): String = s"""\"${num}\""""
     }
 
     val totalFunctionsWithoutSyntaticSugarOne: Function1[Int, String] = new Function1[Int, String] {
-      override def apply(num: Int): String = s"\"${num}\""
+      override def apply(num: Int): String = s"""\"${num}\""""
     }
 
     println()

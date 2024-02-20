@@ -1,4 +1,4 @@
-package com.suanki.tutorials.basics
+package com.suanki.dev.basics
 
 object TWOExploringNewLearning extends App {
 

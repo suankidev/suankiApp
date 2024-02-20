@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.patternMatching
+package com.suanki.dev.devInsideYou.patternMatching
 
 object Top {
   object Sub {

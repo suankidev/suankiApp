@@ -1,5 +1,5 @@
-package com.suanki.tutorials.basics
-import com.suanki.tutorials.Exercise.show
+package com.suanki.dev.basics
+import com.suanki.dev.Exercise.show
 
 import scala.annotation.tailrec
 object FiveSubroutinesPartTwo {

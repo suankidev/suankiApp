@@ -1,4 +1,4 @@
-package com.suanki.tutorials.oops
+package com.suanki.dev.oops
 
 object ObjectsIncScala {
 

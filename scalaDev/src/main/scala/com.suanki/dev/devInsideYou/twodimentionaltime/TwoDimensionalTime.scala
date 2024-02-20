@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.twodimentionaltime
+package com.suanki.dev.devInsideYou.twodimentionaltime
 
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter

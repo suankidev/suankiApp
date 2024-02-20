@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.ExceptionsInScala
+package com.suanki.dev.devInsideYou.ExceptionsInScala
 
 object Helpers {
 

@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.twodimentionaltime
+package com.suanki.dev.devInsideYou.twodimentionaltime
 final case class TwoDimensionalString(
     top: String,
     middle: String,

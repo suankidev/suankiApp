@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.inheritance
+package com.suanki.dev.devInsideYou.inheritance
 
 class LightBulb extends Device {
   override val wattPerSecond: Double = 100

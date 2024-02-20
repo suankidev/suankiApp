@@ -1,1 +1,13 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: C:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\sparkWithScala\target\scala-2.13\sparkwithscala_2.13-0.1.0-SNAPSHOT.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\sparkWithScala\target\scala-2.12\sparkwithscala_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\sparkWithScala\target\scala-2.12\classes\com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\suanki[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\sparkWithScala\target\scala-2.12\classes\com\suanki[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\suanki\Init$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\sparkWithScala\target\scala-2.12\classes\com\suanki\Init$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\suanki\Init$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\sparkWithScala\target\scala-2.12\classes\com\suanki\Init$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\suanki\Init.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\sparkWithScala\target\scala-2.12\classes\com\suanki\Init.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

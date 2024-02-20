@@ -1,4 +1,4 @@
-//package com.suanki.com.suanki.tutorials.oops
+//package com.suanki.com.suanki.dev.oops
 //
 //object GenericsInScala extends App {
 //

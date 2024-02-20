@@ -1,4 +1,4 @@
-package com.suanki.tutorials.functionalp
+package com.suanki.dev.functionalp
 
 object WhatAFunctions extends App {
   // DREAM:  use function as first class elemnts

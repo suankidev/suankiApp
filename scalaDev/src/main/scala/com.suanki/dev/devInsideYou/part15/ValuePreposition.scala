@@ -1,5 +1,5 @@
-package com.suanki.tutorials.devInsideYou.part15
-//com.suanki.tutorials.devInsideYou.part15.ValuePreposition
+package com.suanki.dev.devInsideYou.part15
+//com.suanki.dev.devInsideYou.part15.ValuePreposition
 
 object ValuePreposition {
 

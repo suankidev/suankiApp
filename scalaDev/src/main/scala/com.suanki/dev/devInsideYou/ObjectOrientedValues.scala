@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou
+package com.suanki.dev.devInsideYou
 
 object ObjectOrientedValues {
 

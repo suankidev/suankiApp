@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.InversionOfControls
+package com.suanki.dev.devInsideYou.InversionOfControls
 
 final case class Device(
     wattPerSecond: Int,

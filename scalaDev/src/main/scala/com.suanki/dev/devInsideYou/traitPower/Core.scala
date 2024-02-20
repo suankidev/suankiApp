@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.traitPower
+package com.suanki.dev.devInsideYou.traitPower
 
 object Core {
 

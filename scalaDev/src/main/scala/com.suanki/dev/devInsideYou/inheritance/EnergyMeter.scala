@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.inheritance
+package com.suanki.dev.devInsideYou.inheritance
 
 class EnergyMeter(device: Device) {
   private[this] var turnedOnAtMillis: Long        = 0

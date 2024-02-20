@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.caseClasses
+package com.suanki.dev.devInsideYou.caseClasses
 
 object File {
 

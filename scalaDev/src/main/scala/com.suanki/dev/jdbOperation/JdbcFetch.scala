@@ -1,4 +1,4 @@
-package com.suanki.tutorials.jdbOperation
+package com.suanki.dev.jdbOperation
 
 import oracle.jdbc.driver.OracleDriver
 
@@ -35,7 +35,7 @@ class JdbcFetch {
 
     val QUERY_COUNT = "select count(*) as count from INVENTORIES"
 
-    val driver = new OracleDriver()
+    val driver = new oracle.jdbc.driver.OracleDriver()
     DriverManager.registerDriver(driver)
 
     val conn: Connection = DriverManager.getConnection(
@@ -78,6 +78,6 @@ object JdbcFetch {
       firstparameter3: String,
       thirdParameter: String
   ): Unit =
-    "thisis test file"
+    println("thisis test file")
 
 }

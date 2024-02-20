@@ -1,4 +1,4 @@
-package com.suanki.tutorials.functionalp
+package com.suanki.dev.functionalp
 
 object AnonymousFunctions extends App {
 

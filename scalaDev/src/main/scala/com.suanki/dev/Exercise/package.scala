@@ -1,4 +1,4 @@
-package com.suanki.tutorials
+package com.suanki.dev
 
 /** objectpackage name is same as main package
   *

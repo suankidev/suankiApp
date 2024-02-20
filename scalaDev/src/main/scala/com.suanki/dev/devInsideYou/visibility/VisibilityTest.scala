@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.visibility
+package com.suanki.dev.devInsideYou.visibility
 
 /** private[this] //only accessible to current object private //only instance of current object protected[this] //only
   * current instatnce and the subclass instance protexte //any instance of the current class and any instatnce of any

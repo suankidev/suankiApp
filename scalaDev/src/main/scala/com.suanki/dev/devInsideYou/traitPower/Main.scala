@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.traitPower
+package com.suanki.dev.devInsideYou.traitPower
 
 object Main {
 
@@ -31,7 +31,7 @@ object Main {
     class FileWithTimestamp(path: String) extends java.io.File(path) with TimeStamp
 
     val path =
-      "C:\\Users\\sujee\\OneDrive\\Documents\\bigdata_and_hadoop\\scala\\spark-sbt-dev\\src\\main\\scala\\com\\suanki\\tutorials\\devInsideYou\\traitPower\\Main.scala"
+      "C:\\Users\\sujee\\OneDrive\\Documents\\bigdata_and_hadoop\\scala\\spark-sbt-dev\\src\\main\\scala\\com\\suanki\\dev\\devInsideYou\\traitPower\\Main.scala"
 
     val file: FileWithTimestamp = new FileWithTimestamp(
       path

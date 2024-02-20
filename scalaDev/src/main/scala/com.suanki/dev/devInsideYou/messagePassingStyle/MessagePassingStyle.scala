@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.messagePassingStyle
+package com.suanki.dev.devInsideYou.messagePassingStyle
 
 object MessagePassingStyle {
 

@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.anonymousPartialFunction
+package com.suanki.dev.devInsideYou.anonymousPartialFunction
 
 object PartialFunctionsPartTwo {
 

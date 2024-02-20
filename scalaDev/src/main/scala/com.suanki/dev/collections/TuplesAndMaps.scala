@@ -1,4 +1,4 @@
-package com.suanki.tutorials.collections
+package com.suanki.dev.collections
 
 object TuplesAndMaps extends App {
 

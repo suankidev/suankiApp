@@ -1,6 +1,6 @@
-package com.suanki.tutorials.devInsideYou.ExceptionsInScala
+package com.suanki.dev.devInsideYou.ExceptionsInScala
 
-import com.suanki.tutorials.devInsideYou.ExceptionsInScala.Helpers._
+import com.suanki.dev.devInsideYou.ExceptionsInScala.Helpers._
 
 object ExceptionPartOne {
 

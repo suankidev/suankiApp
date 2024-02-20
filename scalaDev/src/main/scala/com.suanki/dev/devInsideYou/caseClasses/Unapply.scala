@@ -1,15 +1,15 @@
-package com.suanki.tutorials.devInsideYou.caseClasses
+package com.suanki.dev.devInsideYou.caseClasses
 
 object Unapply {
 
   def code: Unit = {
 
     val implicitFile: String =
-      "C:/Users/sujee/OneDrive/Documents/bigdata_and_hadoop/scala/spark-sbt-dev/src/main/scala/com/suanki/tutorials/devInsideYou/caseClasses/Main.scala"
+      "C:/Users/sujee/OneDrive/Documents/bigdata_and_hadoop/scala/spark-sbt-dev/src/main/scala/com/suanki/dev/devInsideYou/caseClasses/Main.scala"
     // or
     val explicitFile: String = File(
       location =
-        "C:/Users/sujee/OneDrive/Documents/bigdata_and_hadoop/scala/spark-sbt-dev/src/main/scala/com/suanki/tutorials/devInsideYou/caseClasses",
+        "C:/Users/sujee/OneDrive/Documents/bigdata_and_hadoop/scala/spark-sbt-dev/src/main/scala/com/suanki/dev/devInsideYou/caseClasses",
       name = "Main",
       extension = ".scala"
     )

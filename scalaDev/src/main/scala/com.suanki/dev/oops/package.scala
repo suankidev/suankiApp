@@ -1,4 +1,4 @@
-package com.suanki.tutorials
+package com.suanki.dev
 
 package object oops {
   def sayHello: Unit = println("Hello from ")

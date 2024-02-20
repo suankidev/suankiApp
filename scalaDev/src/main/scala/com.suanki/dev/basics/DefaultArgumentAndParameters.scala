@@ -1,3 +1,3 @@
-package com.suanki.tutorials.basics
+package com.suanki.dev.basics
 
 object DefaultArgumentAndParameters extends App {}

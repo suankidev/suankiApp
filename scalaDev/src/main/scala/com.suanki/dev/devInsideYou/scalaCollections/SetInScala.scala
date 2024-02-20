@@ -1,4 +1,4 @@
-package com.suanki.tutorials.devInsideYou.scalaCollections
+package com.suanki.dev.devInsideYou.scalaCollections
 
 object SetInScala {
 
