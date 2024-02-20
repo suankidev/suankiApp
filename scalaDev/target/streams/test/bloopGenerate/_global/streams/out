@@ -1,0 +1,4 @@
+[debug] [scalaDev-test] Classpath dependencies List()
+[debug] [scalaDev-test] Dependencies from configurations List(scalaDev)
+[debug] Bloop wrote the configuration of project 'scalaDev-test' to 'C:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\scala\spark-sbt-dev\.bloop\scalaDev-test.json'
+[success] Generated .bloop\scalaDev-test.json
