@@ -2,7 +2,7 @@ package com.suanki
 
 object CommonUtils {
   
- 
+ import org.
 	def run(name:String):Unit={
 
 		println("="*50)
