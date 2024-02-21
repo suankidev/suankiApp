@@ -1,1 +1,1 @@
-["com.suanki.Init"]
+["com.suanki.Main","com.suanki.SuankiTransformer","com.suanki.stgTransformer.structuredAPI.BasicStructureOperation"]

@@ -1,7 +1,7 @@
 package com.suanki.sparkUtils
 
-import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.log4j.Logger
+import org.apache.spark.sql.{DataFrame, SparkSession}
 
 object AppLogger extends Serializable {
 

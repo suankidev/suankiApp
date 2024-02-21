@@ -74,3 +74,48 @@
 1708444068923:reload
 1708444076236:sparkWithScala/run
 1708444108434:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/sujee/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/sujee/AppData/Roaming/JetBrains/IdeaIC2021.2/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.1.1/sbt-structure-extractor-2021.1.1.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+1708528336117:run
+1708528350833:runMain
+1708528357293:run
+1708528360071:compile
+1708528421486:run sparkWithScala/Main
+1708528444225:run sparkWithScala/Init
+1708528459671:run sparkWithScala/com.suanki.Init
+1708528468172:~run run sparkWithScala/com.suanki.Init
+1708528489347:sparkWithScala/com.suanki.Init
+1708528494116:run sparkWithScala/com.suanki.Init
+1708528505645:sparkWithScala/run
+1708528525286:~sparkWithScala/runMain Init
+1708528537068:~sparkWithScala/run Init
+1708528549461:~sparkWithScala/run com.suanki.Init
+1708528616317:~run com.suanki.Init
+1708528630954:~sparkWithScala/runMain com.suanki.Init
+1708528635948:~sparkWithScala/runMain com.suanki.Main
+1708529313691:~sparkWithScala/runMain Init
+1708529316629:compile
+1708529321821:~sparkWithScala/runMain com.suanki.Main
+1708530164570:scalaDev/run SuankiTransformer
+1708530173946:scalaDev/run com.suanki.SuankiTransformer
+1708530193159:scalaDev/runMain com.suanki.SuankiTransformer
+1708530245121:reload
+1708530257029:scalaDev/runMain com.suanki.SuankiTransformer
+1708530287020:reload
+1708530295708:scalaDev/runMain com.suanki.SuankiTransformer
+1708530456048:reload
+1708530460143:scalaDev/runMain com.suanki.SuankiTransformer
+1708530573846:reload
+1708530577940:scalaDev/runMain com.suanki.SuankiTransformer
+1708530640655:reload
+1708530645938:scalaDev/runMain com.suanki.SuankiTransformer
+1708530711970:reload
+1708530716270:scalaDev/runMain com.suanki.SuankiTransformer
+1708530770342:~sparkWithScala/runMain Init
+1708530780860:reload
+1708530786969:~sparkWithScala/runMain Main
+1708530805926:~sparkWithScala/runMain com.suanki.Main
+1708530841641:reload
+1708530845767:~sparkWithScala/runMain com.suanki.Main
+1708532718017:reload
+1708532742695:compile
+1708532777977:scalafmtAll
+1708532798937:~sparkWithScala/runMain com.suanki.Main

@@ -1,7 +1,7 @@
 package com.suanki
 
-import sparkUtils.{CommonUtils, SparkUtils, AppLogger}
-import stgTransformer.{ExerciseOnDF, SparkOptimization}
+import com.suanki.sparkUtils.{AppLogger, CommonUtils, SparkUtils}
+import com.suanki.stgTransformer.{ExerciseOnDF, SparkOptimization}
 
 object SuankiTransformer {
 
