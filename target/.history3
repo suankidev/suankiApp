@@ -119,3 +119,14 @@
 1708532742695:compile
 1708532777977:scalafmtAll
 1708532798937:~sparkWithScala/runMain com.suanki.Main
+1708573607597:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/sujee/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/sujee/AppData/Roaming/JetBrains/IdeaIC2021.2/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.1.1/sbt-structure-extractor-2021.1.1.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+1708573804606:~sparkWithScala/runMain Main
+1708573909730:~sparkWithScala/runMain com.suanki.Main
+1708581548287:reload
+1708581572391:scalfmtAll
+1708581577677:scalafmt
+1708581618480::quit
+1708581620063:exit
+1708582272920:scalafmtAll
+1708582293194:~sparkWithScala/runMain com.suanki.Main
+1708586681716:sparkWithScala/runMain com.suanki.Main

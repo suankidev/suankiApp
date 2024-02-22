@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\common\src\main\scala\com.suanki\SparkUtils.scala:1:20: '{' expected but 'class' found.[0m
-[0m[[0m[31merror[0m] [0m[0mpackage com.suanki class SparkUtils {[0m
-[0m[[0m[31merror[0m] [0m[0m                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\common\src\main\scala\com.suanki\SparkUtils.scala:3:3: '}' expected but eof found.[0m
-[0m[[0m[31merror[0m] [0m[0m}[0m
-[0m[[0m[31merror[0m] [0m[0m ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

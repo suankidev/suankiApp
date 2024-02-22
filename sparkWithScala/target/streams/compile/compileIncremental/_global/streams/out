@@ -1,28 +1,28 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
 [0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 25 products, 8 sources, 6 libraries[0m
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/sparkWithScala/src/main/scala/com.suanki/stgTransformer/structuredAPI/BasicStructureOperation.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/SuankiTransformer.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/stgTransformer/package.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/stgTransformer/BasicOfSpark.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/Main.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/stgTransformer/ExerciseOnDF.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/Joins.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/stgTransformer/SparkOptimization.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/sparkWithScala/src/main/scala/com.suanki/Joins.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/Main.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/SuankiTransformer.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/sparkWithScala/src/main/scala/com.suanki/sourcing/SparkOptimization.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/sourcing/package.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/SuankiTransformer.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/Main.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/sourcing/BasicOfSpark.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/sourcing/structuredAPI/BasicStructureOperation.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/sourcing/ExerciseOnDF.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/Joins.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/sparkWithScala/src/main/scala/com.suanki/Joins.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/sparkWithScala/src/main/scala/com.suanki/Joins.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/Main.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/SuankiTransformer.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/sparkWithScala/src/main/scala/com.suanki/Joins.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.suanki.Joins, com.suanki.Main, com.suanki.SuankiTransformer)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.suanki.Joins)[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(com.suanki.Joins, com.suanki.Main, com.suanki.SuankiTransformer)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/sparkWithScala/src/main/scala/com.suanki/Joins.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/Main.scala, ${BASE}/sparkWithScala/src/main/scala/com.suanki/SuankiTransformer.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: com.suanki.Joins, com.suanki.Main, com.suanki.SuankiTransformer[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(com.suanki.Joins)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/sparkWithScala/src/main/scala/com.suanki/Joins.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: com.suanki.Joins[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\sparkWithScala\target\scala-2.12\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\sparkWithScala\target\scala-2.12\classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.9.5:compile for Scala 2.12.8[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3bb6cae9 for Scala compiler version 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 75062921 for Scala compiler version 2.12.8[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes;C:\Users\sujee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.8\scala-library-2.12.8.jar[0m
@@ -34,5 +34,5 @@
 [0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.6615496 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.6960832 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
