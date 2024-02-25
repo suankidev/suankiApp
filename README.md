@@ -16,3 +16,23 @@ to load the project:
 
 3. ~sparkWithScala/runMain com.suanki.Init
 
+
+## Plugins
+- sbt-scalafmt
+- sbt-assembly
+
+
+## Test
+Run the tests with enabled coverage:
+```shell script
+sbt clean test
+```
+
+To generate the coverage reports run
+```shell script
+sbt coverageReport
+```
+
+By default, scoverage will generate reports for each project separately. You can merge them into an aggregated report by using the following:
+```shell script
+sbt coverageAggregate

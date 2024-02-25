@@ -19,5 +19,5 @@ object ProjectSettings {
     cancelable in Global := true // allow to use Ctrl + C in sbt prompt
   )
 //  private lazy val commonSettings = general ++ Testing.settings ++ Publish.settings ++ Keys.settings ++ Assembly.settings
-  private lazy val commonSettings = general
+  private lazy val commonSettings = general ++ Assembly.settings
 }

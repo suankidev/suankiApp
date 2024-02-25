@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\sparkWithScala\src\main\scala\com.suanki\Joins.scala:14:5: not found: value dept[0m
-[0m[[0m[31merror[0m] [0m[0m    dept.createOrReplaceTempView("dept")[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
