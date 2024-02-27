@@ -8,24 +8,34 @@ object Dependencies {
   lazy val classDependencyCompileTest = "test->test;compile->compile"
 
   lazy val jacocoVersion = "0.8.11"
-  lazy val jdbc8         = "com.oracle.database.jdbc"    % "ojdbc8"        % "23.3.0.23.09"
-  lazy val jdbc6         = "com.oracle.database.jdbc"    % "ojdbc6"        % "11.2.0.4"
-  lazy val scalaLogging  = "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5"
+  lazy val jdbc8         = "com.oracle.database.jdbc"   % "ojdbc8"        % "23.3.0.23.09"
+  lazy val jdbc6         = "com.oracle.database.jdbc"   % "ojdbc6"        % "11.2.0.4"
+  lazy val scalaLogging  = "com.typesafe.scala-logging" % "scala-logging" % "3.9.5"
+  lazy val gitScopt      = "com.github.scopt"          %% "scopt"         % "4.0.1"
 
   lazy val common =
-    depends(scalaLogging, jdbc8, Spark.core, Spark.sql, Spark.streaming, Testing.scalaTest, Testing.scalaTestFlatspec)
+    depends(gitScopt, jdbc8, Spark.core, Spark.sql, Spark.streaming, Testing.scalaTest, Testing.scalaTestFlatspec)
+
   lazy val scalaDev =
-    depends(scalaLogging, Spark.core, Spark.sql, Spark.streaming, Testing.scalaTest, Testing.scalaTestFlatspec)
+    depends(gitScopt, Spark.core, Spark.sql, Spark.streaming, Testing.scalaTest, Testing.scalaTestFlatspec)
+
   lazy val sparkWithScala =
-    depends(scalaLogging, Spark.core, Spark.sql, Spark.streaming, Testing.scalaTest, Testing.scalaTestFlatspec)
+    depends(
+      gitScopt,
+      Spark.core,
+      Spark.sql,
+      Spark.streaming,
+      Testing.scalaTest,
+      Testing.scalaTestFlatspec
+    )
 
   private def depends(modules: ModuleID*): Seq[Def.Setting[Seq[ModuleID]]] = Seq(libraryDependencies ++= modules)
 
   object Spark {
-    lazy val core      = "org.apache.spark" %% "spark-core"      % Versions.spark % Provided
-    lazy val sql       = "org.apache.spark" %% "spark-sql"       % Versions.spark % Provided
-    lazy val streaming = "org.apache.spark" %% "spark-streaming" % Versions.spark % Provided
-    lazy val mlLib     = "org.apache.spark" %% "spark-mllib"     % Versions.spark % Provided
+    lazy val core      = "org.apache.spark" %% "spark-core"      % Versions.spark // % Provided
+    lazy val sql       = "org.apache.spark" %% "spark-sql"       % Versions.spark // % Provided
+    lazy val streaming = "org.apache.spark" %% "spark-streaming" % Versions.spark // % Provided
+    lazy val mlLib     = "org.apache.spark" %% "spark-mllib"     % Versions.spark // % Provided
   }
 
   object Testing {

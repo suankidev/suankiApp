@@ -156,3 +156,42 @@
 1708829367951:reload
 1708829375007:assembly
 1708829443664:sparkWithScala/runMain com.suanki.Main
+1709045533054:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/sujee/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/sujee/AppData/Roaming/JetBrains/IdeaIC2021.2/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.1.1/sbt-structure-extractor-2021.1.1.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+1709046123262:scalaDev/runMain com.suanki.dev.paramParsing.Parser
+1709046137280:reload
+1709046150272:scalaDev/runMain com.suanki.dev.paramParsing.Parser
+1709046203754:reload
+1709046210127:scalaDev/runMain com.suanki.dev.paramParsing.Parser
+1709046252424:reload
+1709046256461:compile
+1709046357559:update
+1709046376940:clean
+1709046516301:321`
+1709046519099:reload
+1709046525256:compile
+1709046607454:reload
+1709046612361:compile
+1709046680579:reload
+1709046713887:compile
+1709047060106:scalaDev/runMain com.suanki.dev.paramParsing.Parser -a firstArgs -b 1
+1709047074753:!scalaDev/runMain com.suanki.dev.paramParsing.Parser -a firstArgs -b 1
+1709047078474:~scalaDev/runMain com.suanki.dev.paramParsing.Parser -a firstArgs -b 1
+1709049937866:~scalaDev/runMain com.suanki.dev.paramParsing.YourApp -a firstArgs -b 1
+1709050489972:reload
+1709050497737:~scalaDev/runMain com.suanki.dev.paramParsing.YourApp -a firstArgs -b 1
+1709050524342:~scalaDev/runMain com.suanki.dev.paramParsing.Parser -a firstArgs -b 1
+1709050577760:reload
+1709050584552:~scalaDev/runMain com.suanki.dev.paramParsing.Parser -a firstArgs -b 1
+1709050636122:reload
+1709050642081:~scalaDev/runMain com.suanki.dev.paramParsing.Parser -a firstArgs -b 1
+1709050694447:reload
+1709050706562:compile
+1709050724538:clean compile
+1709050726701:clean
+1709050732646:compile
+1709050766994:~scalaDev/runMain com.suanki.dev.paramParsing.Parser -a firstArgs -b 1
+1709050911979:reload
+1709050918688:compile
+1709058910765:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/sujee/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/sujee/AppData/Roaming/JetBrains/IdeaIC2021.2/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.1.1/sbt-structure-extractor-2021.1.1.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+1709059329689:~scalaDev/runMain com.suanki.dev.paramParsing.Parser -a firstArgs -b 1
+1709059372775:~scalaDev/runMain com.suanki.dev.paramParsing.Parser -o firstArgs -t 1
