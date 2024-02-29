@@ -12,21 +12,37 @@ object Dependencies {
   lazy val jdbc6         = "com.oracle.database.jdbc"   % "ojdbc6"        % "11.2.0.4"
   lazy val scalaLogging  = "com.typesafe.scala-logging" % "scala-logging" % "3.9.5"
   lazy val gitScopt      = "com.github.scopt"          %% "scopt"         % "4.0.1"
+  lazy val configFactory = "com.typesafe"               % "config"        % "1.4.2"
 
   lazy val common =
-    depends(gitScopt, jdbc8, Spark.core, Spark.sql, Spark.streaming, Testing.scalaTest, Testing.scalaTestFlatspec)
-
-  lazy val scalaDev =
-    depends(gitScopt, Spark.core, Spark.sql, Spark.streaming, Testing.scalaTest, Testing.scalaTestFlatspec)
-
-  lazy val sparkWithScala =
     depends(
-      gitScopt,
+      jdbc8,
       Spark.core,
       Spark.sql,
       Spark.streaming,
       Testing.scalaTest,
       Testing.scalaTestFlatspec
+    )
+
+  lazy val scalaDev =
+    depends(Spark.core,
+            Spark.sql,
+            Spark.streaming,
+            Testing.scalaTest,
+            Testing.scalaTestFlatspec,
+            configFactory,
+            gitScopt
+    )
+
+  lazy val sparkWithScala =
+    depends(
+      Spark.core,
+      Spark.sql,
+      Spark.streaming,
+      Testing.scalaTest,
+      Testing.scalaTestFlatspec,
+      configFactory,
+      gitScopt
     )
 
   private def depends(modules: ModuleID*): Seq[Def.Setting[Seq[ModuleID]]] = Seq(libraryDependencies ++= modules)
@@ -39,10 +55,10 @@ object Dependencies {
   }
 
   object Testing {
-    lazy val scalaTest              = "org.scalatest"     %% "scalatest"          % Versions.scalaTest % Test
-    lazy val scalaTestFlatspec      = "org.scalatest"     %% "scalatest-flatspec" % Versions.scalaTest % Test
-    lazy val scalaTestMockitoSuggar = "org.scalatestplus" %% "mockito-3-4"        % "3.2.10.0"         % Test
-    lazy val mockito                = "org.mockito"        % "mockito-core"       % Versions.mockito   % Test
+    lazy val scalaTest             = "org.scalatest"     %% "scalatest"          % Versions.scalaTest % Test
+    lazy val scalaTestFlatspec     = "org.scalatest"     %% "scalatest-flatspec" % Versions.scalaTest % Test
+    lazy val scalaTestMockitoSugar = "org.scalatestplus" %% "mockito-3-4"        % "3.2.10.0"         % Test
+    lazy val mockito               = "org.mockito"        % "mockito-core"       % Versions.mockito   % Test
   }
 
 }

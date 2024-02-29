@@ -1,2 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0mthere were 16 deprecation warnings (since 2.12.0); re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\scalaDev\src\main\scala\com\suanki\dev\paramParsing\Main.scala:82:11: not found: value rdApiName[0m
+[0m[[0m[31merror[0m] [0m[0m  println(rdApiName.getString("typeR"))[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
