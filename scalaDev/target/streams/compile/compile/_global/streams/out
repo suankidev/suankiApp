@@ -1,9 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\sujee\OneDrive\Documents\bigdata_and_hadoop\suankiApp\scalaDev\src\main\scala\com\suanki\dev\paramParsing\StagingApi.scala:26:37: value += is not a member of Map[String,String][0m
-[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because:[0m
-[0m[[0m[31merror[0m] [0m[0m    type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m     found   : Int[0m
-[0m[[0m[31merror[0m] [0m[0m     required: String[0m
-[0m[[0m[31merror[0m] [0m[0m    expansion: partitionMap = partitionMap.+("id".$minus$greater(ctx.param.id))[0m
-[0m[[0m[31merror[0m] [0m[0m        case "id"   => partitionMap += ("id"   -> ctx.param.id)[0m
-[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 16 deprecation warnings (since 2.12.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

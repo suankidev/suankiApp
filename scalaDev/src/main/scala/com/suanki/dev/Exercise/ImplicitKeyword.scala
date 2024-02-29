@@ -1,4 +1,5 @@
 package com.suanki.dev.Exercise
+
 import scala.language.implicitConversions
 
 /** In scala implicit works as:

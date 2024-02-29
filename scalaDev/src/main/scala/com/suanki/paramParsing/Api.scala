@@ -1,4 +1,4 @@
-package com.suanki.dev.paramParsing
+package com.suanki.paramParsing
 
 trait Api extends Spark {
 

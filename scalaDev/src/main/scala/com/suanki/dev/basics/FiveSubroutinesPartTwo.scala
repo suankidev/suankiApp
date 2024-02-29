@@ -1,4 +1,5 @@
 package com.suanki.dev.basics
+
 import com.suanki.dev.Exercise.show
 
 import scala.annotation.tailrec

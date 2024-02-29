@@ -1,4 +1,4 @@
-package com.suanki.dev.paramParsing
+package com.suanki.paramParsing
 
 case class StagingApi(ctx: ParamParser with Spark) extends Api {
 

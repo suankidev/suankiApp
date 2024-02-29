@@ -219,3 +219,4 @@
 1709234865961:reload
 1709234899943:~scalaDev/runMain com.suanki.dev.paramParsing.stgTransformer -d "2022-12-30" -i 10 -a TypeA
 1709235771503:~scalaDev/runMain com.suanki.dev.paramParsing.stgTransformer -d "2022-12-30" -i 10 -a TypeAApi
+1709238868055:compile

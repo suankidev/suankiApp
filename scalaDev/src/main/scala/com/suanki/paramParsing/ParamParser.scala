@@ -1,8 +1,8 @@
-package com.suanki.dev.paramParsing
+package com.suanki.paramParsing
 
 abstract class ParamParser extends App {
   println("==" * 30)
-  // ~scalaDev/runMain com.suanki.dev.paramParsing.Main -d "2022-12-30" -i 10 -a typeA
+  // ~scalaDev/runMain com.suanki.paramParsing.Main -d "2022-12-30" -i 10 -a typeA
   val _pram: Arguments = parse(args)
   def param: Arguments = _pram
 

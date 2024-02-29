@@ -1,4 +1,4 @@
-package com.suanki.dev.paramParsing
+package com.suanki.paramParsing
 
 import com.typesafe.config.{Config, ConfigFactory}
 
