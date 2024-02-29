@@ -212,3 +212,10 @@
 1709185645892:at least one arg require
 1709185660430:~scalaDev/runMain com.suanki.dev.paramParsing.StagingApi -d "2022-12-30" -i 10 -a typeA
 1709188364361:~scalaDev/runMain com.suanki.dev.paramParsing.StagingApi -d "2022-12-30" -i 10 -a TypeA
+1709189563492:~scalaDev/runMain com.suanki.dev.paramParsing.StagingApi -d "2022-12-30" -i 10
+1709189583920:~scalaDev/runMain com.suanki.dev.paramParsing.StagingApi -d "2022-12-30" -i 10 -t test
+1709189648819:~scalaDev/runMain com.suanki.dev.paramParsing.StagingApi -d "2022-12-30" -i 10 -a TypeA
+1709234295389:~scalaDev/runMain com.suanki.dev.paramParsing.stgTransformer -d "2022-12-30" -i 10 -a TypeA
+1709234865961:reload
+1709234899943:~scalaDev/runMain com.suanki.dev.paramParsing.stgTransformer -d "2022-12-30" -i 10 -a TypeA
+1709235771503:~scalaDev/runMain com.suanki.dev.paramParsing.stgTransformer -d "2022-12-30" -i 10 -a TypeAApi
