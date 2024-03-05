@@ -220,3 +220,11 @@
 1709234899943:~scalaDev/runMain com.suanki.dev.paramParsing.stgTransformer -d "2022-12-30" -i 10 -a TypeA
 1709235771503:~scalaDev/runMain com.suanki.dev.paramParsing.stgTransformer -d "2022-12-30" -i 10 -a TypeAApi
 1709238868055:compile
+1709319104507:~scalaDev/runMain com.suanki.dev.appliedOne.QuickCollectionIntro
+1709319234709:~scalaDev/runMain com.suanki.dev.appliedOne.Main
+1709374513588:compile
+1709374616379:clean
+1709374641977:compile
+1709374688642:~scalaDev/runMain com.suanki.dev.appliedOne.Main
+1709378853624:~scalaDev/runMain com.suanki.dev.appliedOne.RationalMain
+1709442072478:~scalaDev/runMain com.suanki.dev.appliedOne.Main
