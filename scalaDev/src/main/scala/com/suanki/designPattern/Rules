@@ -1,0 +1,45 @@
+/**
+  * the should never be more than one reason for a class to change
+  *
+  * -> a class should handle one type of thing
+  *
+  *
+  * 2. open-closed principle: a. opent for extenstion
+  *
+  *
+  *                     b.  but closed for modification
+  *
+  *                     i.g.  implement abstract class on top of concrete class
+  *
+  * 3.  we should be to substitute base class objects with
+  * child class objects and this should not alter behavior /characterisics of programm
+  *
+  *
+  * 4. clients should not be foreced to depend
+  * upon interfaces that they do not use
+  *
+  *
+  * 5. dependency inversion principle:
+  *    => high level modules should not depend upon low level modules, both should depend upon abstraction
+  *    = abstracns should not depend upon details.
+  *      details should depend upon anstractions
+  *
+  * i.g
+  * 1. single resposibility principles ( class or method has only single reason for changing)
+  * 2. Open closed priniciple ( open mean class is open for inheritance method can be overriden , close mean base class is closed for modificaiton)
+  * 3. Liskov principle ( is voileted when child class completly modify the behavior /contract  of base class  mehtod vy overiding it)
+  * 4. interface Segregation pricinciple ( devide interface of unrelated iterm into smaller chunk
+  * 5. dependency inversion pricinciple ( It means that code should not create objects of all of its dependencies
+itself. Dependencies should be provided to the code from outside.)
+
+  *
+  *
+  *
+  *
+  **/
+
+
+
+
+
+

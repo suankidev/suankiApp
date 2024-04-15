@@ -1,5 +1,6 @@
 package com.suanki
 
+import com.suanki.sourcing.DemoSparkSql
 import com.suanki.sparkUtils.SparkUtils
 
 object Main {
@@ -11,10 +12,14 @@ object Main {
     val spark: SparkUtils = new SparkUtils()
 
     // join
-    val joins = new Joins(spark.getSparkSession())
+//    val joins = new Joins(spark.getSparkSession())
 
     // inner join
-    joins.innerJoin()
+//    joins.innerJoin()
+
+    // testing spark sql
+    val demo = new DemoSparkSql(spark.getSparkSession())
+    demo.execute
 
     println("End....")
     println("=" * 50)

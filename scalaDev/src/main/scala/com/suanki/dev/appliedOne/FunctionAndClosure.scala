@@ -40,6 +40,8 @@ object FunctionAndClosure {
 
     println(myList.partition(x => x % 4 == 0))
     println(myList.span(x => x % 4 == 0))
+    println(myList.map(x => x * 5))
+    println(myList.flatMap(x => (x * 5).toString))
 
     // hof
 

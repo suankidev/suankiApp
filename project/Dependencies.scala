@@ -25,13 +25,17 @@ object Dependencies {
     )
 
   lazy val scalaDev =
-    depends(Spark.core,
-            Spark.sql,
-            Spark.streaming,
-            Testing.scalaTest,
-            Testing.scalaTestFlatspec,
-            configFactory,
-            gitScopt
+    depends(
+      Spark.core,
+      Spark.sql,
+      Spark.streaming,
+      Testing.scalaTest,
+      Testing.scalaTestFlatspec,
+      Testing.scalactic,
+      Testing.scalaMock,
+      Testing.scalaCheck,
+      configFactory,
+      gitScopt
     )
 
   lazy val sparkWithScala =
@@ -59,6 +63,9 @@ object Dependencies {
     lazy val scalaTestFlatspec     = "org.scalatest"     %% "scalatest-flatspec" % Versions.scalaTest % Test
     lazy val scalaTestMockitoSugar = "org.scalatestplus" %% "mockito-3-4"        % "3.2.10.0"         % Test
     lazy val mockito               = "org.mockito"        % "mockito-core"       % Versions.mockito   % Test
+    lazy val scalactic             = "org.scalactic"     %% "scalactic"          % Versions.scalaTest % Test
+    lazy val scalaMock             = "org.scalamock"     %% "scalamock"          % "6.0.0-M1"         % Test
+    lazy val scalaCheck            = "org.scalacheck"    %% "scalacheck"         % "1.17.0"           % Test
   }
 
 }

@@ -15,7 +15,7 @@ object JdbcReader {
       DriverManager.registerDriver(driver)
 
       val connection: Connection = DriverManager.getConnection(
-        "jdbc:oracle:thin:suanki/TestPass#123@localhost:1521/PDBORCL"
+        "jdbc:oracle:thin:suanki/yourpassword@localhost:1521/PDBORCL"
       )
       connection
     }

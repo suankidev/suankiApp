@@ -228,3 +228,38 @@
 1709374688642:~scalaDev/runMain com.suanki.dev.appliedOne.Main
 1709378853624:~scalaDev/runMain com.suanki.dev.appliedOne.RationalMain
 1709442072478:~scalaDev/runMain com.suanki.dev.appliedOne.Main
+1711081763810:~scalaDev/runMain com.suanki.dev.appliedTwo
+1711527649374:~sparkWithScala/runMain com.suanki.Main
+1711539407922:~scalaDev/runMain com.suanki.dev.appliedTwo.AbstrctClasses
+1711626890053:scalaDev/runMain com.suanki.dev.appliedTwo.Main
+1711626909470:~scalaDev/runMain com.suanki.dev.appliedTwo.Main
+1711712858159:~scalaDev/runMain com.suanki.dev.appliedTwo.Demo
+1711712898817:~scalaDev/runMain com.suanki.dev.appliedTwo.Demo txnAbc 2
+1711715090159:~scalaDev/runMain com.suanki.dev.appliedTwo.Demo --arg1 txnAbc --arg2 2
+1712030568139:~scalaDev/runMain com.suanki.dev.Exercise.PlayGround
+1712384344975:~scalaDev/test
+1712385234747:reload
+1712385273351:compile
+1712385355823:reload
+1712385367047:compile
+1712385477947:reload
+1712385483884:compile
+1712385553143:reload
+1712385555687:compile
+1712385630006:reload
+1712385633480:compile
+1712385750746:reload
+1712385756050:compile
+1712385816921:reload
+1712385819883:compile
+1712385865206:~scalaDev/testOnly com.suanki.Demo.DemoOne
+1712402051064:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/sujee/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/sujee/AppData/Roaming/JetBrains/IdeaIC2021.2/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.1.1/sbt-structure-extractor-2021.1.1.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+1712402551528:~scalaDev/testOnly com.suanki.Demo.DemoOne
+1712402666764:~scalaDev/testOnly com.suanki.Demo.TestingSpecDemo
+1712761328907:~scalaDev/runMain  com.suanki.dev.appliedOne.InitTest
+1712761380213:~scalaDev/runMain  com.suanki.dev.appliedOne.InitTest --date 2023-12-30 --run 10
+1712761535291:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/sujee/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/sujee/AppData/Roaming/JetBrains/IdeaIC2021.2/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.1.1/sbt-structure-extractor-2021.1.1.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+1712762082540:~scalaDev/runMain  com.suanki.dev.appliedOne.InitTest --date 2023-12-30 --run 10
+1712769738752:~scalaDev/runMain  com.suanki.dev.appliedOne.UniformAccess
+1713009634774:~ScalaDev/runMain com.suanki.designPattern.expenseTracker.Main
+1713009643740:~scalaDev/runMain com.suanki.designPattern.expenseTracker.Main

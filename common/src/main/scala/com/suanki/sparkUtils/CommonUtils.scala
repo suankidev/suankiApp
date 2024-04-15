@@ -13,6 +13,7 @@ object AppLogger extends Serializable {
 
   def getInfoMsg(msg: Any, appLogger: Logger): Unit =
     appLogger.info(s"${Console.GREEN}${msg}${Console.RESET}")
+
   def getWarnMsg(msg: Any, appLogger: Logger): Unit =
     appLogger.info(s"${Console.GREEN}${msg}${Console.RESET}")
 

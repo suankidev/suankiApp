@@ -127,3 +127,13 @@ which have the same type of value. If not get it will cause error.
   }
 
 }
+
+object Demo5 {
+  implicit class Test(val x: Int) extends AnyVal {
+    def timesDo(fn: => Unit): Unit = {
+      for (x <- 1 to x) fn
+    }
+  }
+
+  5 timesDo println("hello")
+}

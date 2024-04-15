@@ -23,6 +23,37 @@ object AnEnd {
 
   }
 
+  def populateTable(tableName: String, action: String)(fn: String => Boolean): AnEnd.type = {
+    val isPresent = !fn(tableName)
+    action match {
+      case "stgTable" if isPresent   => println("writing stg df")
+      case "finalTable" if isPresent => println("writing final df")
+      case "transtable" if isPresent => println("writing trans df")
+      case _                         => println(s"skipping populate table for ${tableName}")
+    }
+    this
+  }
+
+  def pupulate[A](table: String, tableType: A)(b: () => Boolean): A = {
+    tableType match {
+      case _ => tableType
+    }
+  }
+
+  def testing: Unit = {
+
+    println("==>inside testing table")
+    val stgTable: String   = "table_stg"
+    val finalTable: String = ""
+
+    pupulate(stgTable, "someDF")(() => stgTable.isEmpty)
+
+    populateTable(stgTable, "stgTable")(isValue => stgTable.isEmpty)
+      .populateTable(stgTable, "finalTable")(isValue => finalTable.isEmpty)
+      .populateTable(stgTable, "transTable")(isValue => finalTable.isEmpty)
+
+  }
+
   // using the content of the files?
 
   def fileContainsQuestion(file: File): Boolean = {
@@ -89,25 +120,9 @@ object AnEnd {
 
     println(y(10)(20)(30))
 
-    def populateTables[A](tableName: String)(fn: String => A): Unit = {
-
-      val df = fn(tableName)
-
-    }
-
-    populateTables("stgTable") { tableName =>
-      println(s"reading table $tableName")
-    }
-
-    populateTables("finalTable") { tableName =>
-      println(s"reading table $tableName")
-    }
-
-    populateTables("stgTransformer") { tableName =>
-      println(s"reading table $tableName")
-    }
-
     writingOurOwnLoop
+
+    testing
 
   }
 }
