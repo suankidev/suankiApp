@@ -97,8 +97,19 @@ b3.draw()
 b3.reset()
 objectPool.release(b3)
 
-val b4 = objectPool.get()
-b4("test.img")
-b4.location = new Point2D(10, 40)
-b4.draw()
-b4.reset()
+val tsk = List("taskA", "taskB", "taskC")
+tsk.foreach(tsk => {
+  val t = objectPool.get()
+  t(tsk)
+  t.location = new Point2D(10, 20)
+  t.draw()
+  t.reset()
+  objectPool.release(t)
+
+})
+//Design consideration
+
+//apache commons dbcp library is used for database connecitno pooling,
+// Clas sorg.apache.commons.dbcp.BasicDataSource in dbcp pacakge is an example of
+//object pool pattern which pools database connecitons.
+//this pool is commonly created and exposed via jdni or as a spring bean in applicaiton
