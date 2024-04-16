@@ -12,73 +12,93 @@ trait Poolable {
 }
 
 trait Image extends Poolable {
-  def draw():Unit
-  var _location: Point2D = _
-  def location:Point2D=_location
-  def location_=(newLocation:Point2D): Unit =_location = newLocation
+  def draw(): Unit
+  var _location: Point2D                     = _
+  def location: Point2D                      = _location
+  def location_=(newLocation: Point2D): Unit = _location = newLocation
 
 }
 
+class BitMap extends Image {
+  private var name: String = "default"
 
-class BitMap extends Image{
-  private var name:String =  _
-  def apply(name:String):BitMap ={
-    this.name = name
-    new BitMap
-  }
+  def apply(name: String): Unit = this.name = name
+
   override def draw(): Unit = println(s"draw ${name} @ ${location}")
 
   override def reset(): Unit = {
     location = null
     println("Bitmap is reset")
   }
+
+  def apply(): BitMap = new BitMap
 }
 
 import scala.collection.mutable
 
-class ObjectPool[T <: Poolable]{
+class ObjectPool[T <: Poolable](f: T) {
 
-  private val poolSize = 10
-  private val objectPool: mutable.Queue[T] = mutable.Queue.fill(poolSize)(new T())
+  private val poolSize                     = 3
+  private val objectPool: mutable.Queue[T] = mutable.Queue.fill(poolSize)(f)
 
-  //give object from pool
-  def get():T={
-    synchronized{
-      try
-        {
-          objectPool.dequeue()
-        }catch {
-        case e:InterruptedException => println("get was interrupted")
+  // give object from pool
+  def get(): T = {
+    synchronized {
+      try {
+        println(s"inside deque get ${objectPool.size}")
+
+        objectPool.dequeue()
+      } catch {
+        case e: InterruptedException =>
+          println("get was interrupted"); null.asInstanceOf[T]
+
+        case e: NoSuchElementException =>
+          println("enqueue is empty")
+          Thread.sleep(10000)
           null.asInstanceOf[T]
       }
     }
   }
 
-  //add obj back to pool
-  def release(obj:T):Unit={
-     synchronized{
-       try {
-         obj.reset()
-         objectPool.enqueue(obj)
-       }catch {
-         case e:InterruptedException => println("enqueue is interrupted")
-       }
-       }
+  // add obj back to pool
+  def release(obj: T): Unit = {
+    synchronized {
+      try {
+        println(s"inside release get ${objectPool.size}")
+        obj.reset()
+        objectPool.enqueue(obj)
+      } catch {
+        case e: InterruptedException   => println("enqueue is interrupted")
+        case e: NoSuchElementException => println("enqueue is full")
+      }
+    }
   }
 }
 
-
-
 //client
 
-val objectPool:ObjectPool[BitMap] = new ObjectPool[BitMap]()
+val objectPool: ObjectPool[BitMap] = new ObjectPool[BitMap](new BitMap)
+val b1                             = objectPool.get()
+b1("test.img")
+b1.location = new Point2D(10, 10)
+b1.draw()
+b1.reset()
 
-val b1 = objectPool.get()("img.jpeg")
-b1.location = new Point2D(10,10)
+val b2 = objectPool.get()
+b2("test.img")
+b2.location = new Point2D(10, 20)
+b2.draw()
+b2.reset()
 
-val b2 = objectPool.get()("tst.jpeg")
-b2.location = new Point2D(40,30)
+val b3 = objectPool.get()
+b3("test.img")
+b3.location = new Point2D(10, 30)
+b3.draw()
+b3.reset()
+objectPool.release(b3)
 
-
-
-
+val b4 = objectPool.get()
+b4("test.img")
+b4.location = new Point2D(10, 40)
+b4.draw()
+b4.reset()
