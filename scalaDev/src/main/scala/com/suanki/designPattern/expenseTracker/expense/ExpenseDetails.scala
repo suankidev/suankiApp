@@ -5,5 +5,5 @@ case class ExpenseDetails(money: Double, expenseType: String, description: Strin
   val expenseDescription: ExpenseDescription =
     new ExpenseDescription(expenseType, description)
 
-   val expenseCalculator: ExpenseCalculator = _
+  val expenseCalculator: ExpenseCalculator = new ExpenseCalculator()
 }

@@ -21,6 +21,7 @@ class TextMessage extends Message {
   override def getContent: String = "{\"JSON\":[]}"
 
 }
+
 class JsonMessage extends Message {
   override def getContent: String = "Text Message"
 }
@@ -38,7 +39,9 @@ abstract class MessageCreator {
 }
 
 class JsonMessageCreator extends MessageCreator {
-  override def createMessage(): Message = new JsonMessage()
+  override def createMessage(): Message = {
+    new JsonMessage()
+  }
 }
 
 class TextMessageCreator extends MessageCreator {

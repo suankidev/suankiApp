@@ -21,9 +21,10 @@ class LogExpenses(user: User, expense: ExpenseDetails) extends Writer[LogExpense
 
   override def writeIntoTable(query: String): LogExpenses = {
 
-    val jdbcConnection: Connection = com.suanki.jdbcReader.JdbcReader.getJdbcConnection
+    val jdbcConnection: Connection = com.suanki.jdbcReader.JdbcReader.getJdbcConnection()
     val stmt                       = jdbcConnection.createStatement()
 
+    null
   }
 
 }
