@@ -10,6 +10,7 @@ trait Spark {
   def createSparkSession: SparkSession =
     SparkSession
       .builder()
+      .master("local[4]")
       .appName(appName)
       .getOrCreate()
 
