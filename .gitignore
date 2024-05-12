@@ -20,6 +20,9 @@ project/plugins/project/
 .lib/
 .idea
 .bsp
+.bloop
+.metals
+.vscode
 
 ### Scala template
 *.class

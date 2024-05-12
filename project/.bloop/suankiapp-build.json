@@ -22,7 +22,7 @@
         "classpath": [
             "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\sbt\\1.9.7\\sbt-1.9.7.jar",
             "C:\\Users\\sujee\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar",
-            "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.15\\sbt-bloop-1.5.15.jar",
+            "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.17\\sbt-bloop_2.12_1.0-1.5.17.jar",
             "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\org.jetbrains\\sbt-ide-settings\\scala_2.12\\sbt_1.0\\1.1.0\\jars\\sbt-ide-settings.jar",
             "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\sbt-scalafmt_2.12_1.0\\2.5.2\\sbt-scalafmt_2.12_1.0-2.5.2.jar",
             "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\com.eed3si9n\\sbt-assembly\\scala_2.12\\sbt_1.0\\0.15.0\\jars\\sbt-assembly.jar",
@@ -264,7 +264,7 @@
             },
             "classpath": [
                 "C:\\Users\\sujee\\OneDrive\\Documents\\bigdata_and_hadoop\\suankiApp\\project\\.bloop\\suankiapp-build\\scala-2.12\\sbt-1.0\\classes",
-                "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.15\\sbt-bloop-1.5.15.jar",
+                "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.17\\sbt-bloop_2.12_1.0-1.5.17.jar",
                 "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\org.jetbrains\\sbt-ide-settings\\scala_2.12\\sbt_1.0\\1.1.0\\jars\\sbt-ide-settings.jar",
                 "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\sbt-scalafmt_2.12_1.0\\2.5.2\\sbt-scalafmt_2.12_1.0-2.5.2.jar",
                 "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\com.eed3si9n\\sbt-assembly\\scala_2.12\\sbt_1.0\\0.15.0\\jars\\sbt-assembly.jar",
@@ -310,17 +310,17 @@
                 {
                     "organization": "ch.epfl.scala",
                     "name": "sbt-bloop",
-                    "version": "1.5.15",
+                    "version": "1.5.17",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "sbt-bloop",
-                            "path": "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.15\\sbt-bloop-1.5.15.jar"
+                            "path": "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.17\\sbt-bloop_2.12_1.0-1.5.17.jar"
                         },
                         {
                             "name": "sbt-bloop",
                             "classifier": "sources",
-                            "path": "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.15\\sbt-bloop-1.5.15-sources.jar"
+                            "path": "C:\\Users\\sujee\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.17\\sbt-bloop_2.12_1.0-1.5.17-sources.jar"
                         }
                     ]
                 },

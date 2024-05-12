@@ -1,5 +1,6 @@
 package com.suanki.dev.devInsideYou.caseClasses
 
+//https://stackoverflow.com/questions/46897540/why-i-have-to-return-some-in-unapply-method
 object File {
 
   def apply(location: String, name: String, extension: String): String = s"""${location}/${name} ${extension}"""
