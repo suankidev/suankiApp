@@ -267,3 +267,15 @@
 1713372642156:~scalaDev/runMain com.suanki.designPattern.structuralPattern.StructureDemo
 1714654038699:~sparkWithScala/runMain ReadingSparkPlan
 1714654125454:~sparkWithScala/runMain com.suanki.sparkPlan.ReadingSparkPlan
+1715600255772:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/sujee/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/sujee/AppData/Roaming/JetBrains/IdeaIC2021.2/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.1.1/sbt-structure-extractor-2021.1.1.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+1715600949486:~scalaDev/runMain com.suanki.dev.typeSystem.simpleTypes.Main
+1715601058302:compile
+1715601105767:clean
+1715601108823:compile
+1715601173065:~scalaDev/runMain com.suanki.dev.typeSystem.simpleTypes.Main
+1715607698708:~scalaDev/runMain com.suanki.dev.typeSystem.genericType.Main
+1715608337791:~scalaDev/runMain com.suanki.dev.typeSystem.simpleTypes.Main
+1715608492968:~scalaDev/runMain com.suanki.dev.typeSystem.genericType.Main
+1715619127708:~scalaDev/runMain com.suanki.dev.typeSystem.FunctionVariance
+1715619596673:~scalaDev/runMain com.suanki.dev.typeSystem.genericType.Main
+1715620115243::quit

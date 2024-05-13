@@ -5,7 +5,7 @@ object Unapply {
   def code: Unit = {
 
     val implicitFile: String =
-      "C:/Users/sujee/OneDrive/Documents/bigdata_and_hadoop/scala/spark-sbt-dev/src/main/scala/com/suanki/dev/devInsideYou/caseClasses/Main.scala"
+      "C:/Users/sujee/OneDrive/Documents/bigdata_and_hadoop/scala/spark-sbt-dev/src/main/scala/com/suanki/dev/devInsideYou/caseClasses/SimpleType.scala"
     // or
     val explicitFile: String = File(
       location =
