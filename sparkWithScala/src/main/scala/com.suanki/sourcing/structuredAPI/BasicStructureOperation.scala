@@ -74,7 +74,7 @@ object BasicStructureOperation {
       .option("url", url)
       .option("user", "suanki")
       .option("driver", driver)
-      .option("password", "Sniper#123")
+      .option("password", "test")
       .option(
         "query",
         s"""select cast(0 as int) as minid
@@ -96,7 +96,7 @@ object BasicStructureOperation {
       .option("url", url)
       .option("driver", driver)
       .option("user", "suanki")
-      .option("password", "Sniper#123")
+      .option("password", "test")
       .option("dbtable", "products")
       .load())
 
@@ -107,7 +107,7 @@ object BasicStructureOperation {
       .option("url", url)
       .option("driver", driver)
       .option("user", "suanki")
-      .option("password", "Sniper#123")
+      .option("password", "test")
       //      .option("dbtable",
       //        "(select product_id, product_name, description, standard_cost,list_price, CATEGORY_ID from products) as subq")
       .option("dbtable", "products")
@@ -126,7 +126,7 @@ object BasicStructureOperation {
       .option("url", url)
       .option("driver", driver)
       .option("user", "suanki")
-      .option("password", "Sniper#123")
+      .option("password", "test")
       .option(
         "query",
         """select product_id, product_name, description, standard_cost,list_price,
