@@ -1,3 +1,10 @@
+val l = List(1,2,4,5)
+
+val t =for{i <- 0 until l.length -1
+    value = i - l.length -1
+    }yield l(-(value))
+
+t
 val  (a,b,c,d) = (1,2,3,4)
 
 
